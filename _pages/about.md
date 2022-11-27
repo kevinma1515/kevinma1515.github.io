@@ -2,24 +2,22 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: UC Berkeley MechE
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: my_profile_pic.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+
 
 news: true  # includes a list of news items
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+selected_papers: false # includes a list of papers marked as "selected={true}"
+social: false  # includes social icons at the bottom of the page
 ---
+I am currently a Ph.D. student in Mechanical Engineering at the [University of California, Berkeley](https://www.berkeley.edu/) advised by [Dr. Kosa Goucher-Lambert](http://www.kosagl.com/) in the [Co-Design Lab](https://codesign.berkeley.edu/) affiliated with the [Berkeley Institute of Design](http://bid.berkeley.edu/). I graduated with a B.S. in Mechanical Engineering from The University of Texas at Austin. 
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+My research interest lies in the intersection of *engineering design*, *artificial intelligence*, and *cognitive science*. My current research lies in the development of new design tools and methodologies that will (1) make the designer's life easier, (2) enhance the designer's capabilities, and (3) stimulate the designer's creativity. Previously, I did my undergraduate research project on modelling individual risk for [COVID-19](https://github.com/kevin-m-1515/COVID-Individual-Risk-Calculator), which was graciously advised by [Dr. Michael Lachmann](https://www.santafe.edu/people/profile/michael-lachmann) and [Dr. Jennifer Johnson-Leung](https://www.uidaho.edu/sci/mathstat/our-people/faculty/jenfns).
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+Outside of research and work, you can find me practicing ballroom dancing, training olympic-style weightlifting, or walking around large trees and mountains.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.

@@ -1,80 +1,61 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
-img: assets/img/12.jpg
+title: Remote Learning
+description: Human Centered Design Project
+img:
 importance: 1
 category: work
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+Me and a team consisting of 2 undergraduate students and 2 graduate students at Berkeley were given the design task to create remote learning for the future. 
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+Problem Space:
+Remote education has been the most important topic over the last few months, with the global pandemic. While the use of conference calls for remote classes allow teachers-students to continue communication, there seems to be gaps between the traditional ways of being in classrooms with classmates. This project will explore the pros and cons of remote classes and will ideate solutions that may address the pain-points that the current remote classroom is suffering from.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+There are four phases of design that this course undergoes:
+1. Identify
+2. Understand
+3. Conceptualize
+4. Realize
 
+We first focused on identifying the product opportunity gap (POG) we wanted to focus on. 
+We did this by doing user research in the form of identifying social, economic, and technological (SET) factors, creating a stakeholder map, and doing POG generations.
+
+I first identified SET factors using the internet and articles online to support the generation of SET factors.
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/hcd/img1.png" title="img1" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    The image above shows the list of SET factors we identified collectively.
 </div>
+
+I then assisted in the creation of a "Powers of 10" stakeholder diagram. We identified that the initial core stakeholders will be students, teachers, and parents of students from K-12 and college level.
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/hcd/img2.png" title="img2" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
+    The image above shows the stakeholder map we identified and constructed collectively.
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
-
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+We also each individually generated 10 POGs. We identified our POGs by voting on which POG we liked the most from the list of POGs we generated. 
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/hcd/img3.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/hcd/img4.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
+    Each person generated 10 POGs, and the POGs on the green sticky notes are the individual POGs I generated. We did voting by attaching stickers to the POGs we liked, and the POGs that had my votes were the ones with a K attached to it. 
 </div>
+We noticed commonalities between each of the POGs, so we decided to group the POGs we liked into one generic POG that covered all the specific features we liked from the generated POGs.
 
+The final POG we generated from phase 1 was:
+*How might we bridge the gap in educational presence and communication between those who attend remotely and in-person in a hybrid classroom to augment the learning environment?*
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}
+Reflecting back on Phase 1, I noticed that I should have encouraged the team to choose a more specific POG. The lack of a specific POG from Phase 1 caused big issues later on when we did our user research in Phase 2. We lacked a cleared POG, so our user research in Phase 2 was not focused until much later into Phase 2. 
