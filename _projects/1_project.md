@@ -187,3 +187,145 @@ Overall, this cumulated in the creation of 5 key product requirements:
 - *Communication*: Product should allow for an easy and open communication pipeline between students and teachers
 - *Interactive*: Product must allo students to engage directly with the material within the lab.
 
+The third design phase is to conceptualize the user research.
+
+I individually generated 10 concepts using a combination of forced analogy, design heuristics, and design exploration using Google Patents.
+
+Below are a compiled version of all the 10 different individual designs I generated using a combination of all the methods above.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/hcd/img13.png" title="Concept Generation 1" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/hcd/img14.png" title="Concept Generation 2" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/hcd/img15.png" title="Concept Generation 3" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/hcd/img16.png" title="Concept Generation 4" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/hcd/img17.png" title="Concept Generation 5" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    My individually generated concepts
+</div>
+
+*Reflections:*
+
+While the artwork was not great, this activity helped me a great deal. Some reflections on this activity was that it was harder than I expected to generate 10 concepts. I had to dig deep into some inspirations from Google patents and functional/visual analogies to generate new concepts. Some of the concepts also became repetitive with slight modifications to them because I frequently ran into mental roadblocks while doing this activity. I tried spreading these concept generations over a couple of days to overcome some of the mental roadblocks, but, by my 8th or 9th design, I was struggling very hard to generate some concepts. Additionally, one of my research work is how can we create better tools to enhance and stimulate the designer's creativity and ability to think outside the box. Doing this activity helped me empathize and understand the challenges designers need to overcome, and it also exposed me to the current design methodologies and tools we can use to overcome these challenges.
+
+I also did 5-3-5 idea generation to improve on each other's idea. These can be seen in the sequence below.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/hcd/img18.png" title="5-3-5" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/hcd/img19.png" title="5-3-5" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/hcd/img20.png" title="5-3-5" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/hcd/img21.png" title="5-3-5" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/hcd/img22.png" title="5-3-5" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/hcd/img23.png" title="5-3-5" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/hcd/img24.png" title="5-3-5" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Generated concepts from 5-3-5 method
+</div>
+
+*Reflections:*
+
+This activity exposed me to a lot of different perspectives because I think some people (including me) get stuck on some specific ideas that can be integrated with other people's ideas, and that really helps push the innovativeness of the product design. However, me and the rest of the group became increasingly fatigued and got lazy with concept generation near the end of the 5-3-5 process. I think a better way of doing the 5-3-5 in future design settings would be to do the 5-3-5 concept generation but with breaks in between because if there is too much time constraint, I noticed me and the team just start getting lazy with the concept building.
+
+I also helped in narrowing down the ideas we had from 70 concepts to just 2 concepts. We narrowed down the initial 70 concepts to 4 concepts through the use of dot voting, redundancy reduction, and clustering. These can be seen in our spreadsheet [here](https://docs.google.com/spreadsheets/d/1G4gaGtEIh5MEooGW6uCaeGdqvF8K28fP/edit?usp=sharing&ouid=107916177744761914338&rtpof=true&sd=true)
+
+To narrow down the idea from 4 concepts to 2 final concepts, we got feedback from the instructor and other classmates, and we also narrowed down the idea from 2 final concepts to 1 final concept through the use of low fidelity prototyping and storyboarding.
+
+Our final 2 concepts were:
+
+1. BioBox: Sandbox interaction method for life science labs where students can put in virtual animals/plants/bugs into an environment and observe changes over time.
+2. Augmented Reality Device: AR glasses headset device where the student can interact with the physical product via projections from AR glasses.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/hcd/img26.png" title="Low Fidelity Prototyping" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    I imitated myself as a user scanning an object into the BioBox.
+</div>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/hcd/img27.png" title="Low Fidelity Prototyping" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Here I tried on the Augmented Reality glasses to get an idea of what it is like to wear an AR/VR headset.
+</div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/hcd/img28.png" title="Low Fidelity Prototyping" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    I imitated a user scanning objects from the ground onto my device.
+</div>
+
+Due to the discomfort of wearing an augmented reality glass headset device, I proposed that we move towards the BioBox because it is more comfortable, more engaging, and more interactive.
+
+Therefore, we moved onto the final design phase: realizing the concept.
+
+We opted to create a video to represent our concept. This one took a long time, and I was the primary actor for the video. 
+
+Check out the video here:
+
+<iframe width="480" height="360" src="http://youtu.be/D_Vu82-GtJo" frameborder="0"> </iframe>
+
+If the video does not display, here's the direct link: https://www.youtube.com/watch?v=D_Vu82-GtJo
+
+I also conducted a small mini user research with a few college students to get some ideas of what they liked and disliked about our project.
+Some insights I got is that:
+1. They found the concept of how we used the augmented reality was much more exciting than the actual educational product itself.
+2. They felt like there could be more instructor-student feedback in the product.
+3. They think the concept of going outside and interacting with the world in a similar manner as our product is a unique and immersive concept that has many potential applications beyond just education.
+
+*Overall reflection on this whole project*
+
+I think this class was a very cool experience, and it exposed me to the whole entire design process. In more traditional engineering classes, we tend to ignore the user research aspect of product design, and we would usually jump straight into the prototyping phase after doing some small-scale preliminary research on the internet. I think spending a lot of time interviewing people, collecting user research, and synthesizing those user research was a great experience because it was different yet also a critical component of product design. Additionally, as to how this pertains to my research, I think the heavy emphasis on user research also exposed me to various methods of human research studies, which is a technical skill I am much weaker at and have been wanting to work on. In that regard, I think it benefited me greatly. 
+
+
