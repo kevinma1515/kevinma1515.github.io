@@ -19,7 +19,6 @@ group :jekyll_plugins do
     # gem 'therubyracer'
     gem 'unicode_utils'
     gem 'webrick'
-    gem 'sass-embedded', '~> 1.71'
 end
 group :other_plugins do
     gem 'httparty'
