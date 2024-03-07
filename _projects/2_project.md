@@ -1,81 +1,27 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
-img: assets/img/3.jpg
-importance: 2
+title: 2D CAD(ish) reconstruction
+description: Deep Reinforcement Learning Project
+img:
+importance: 1
 category: work
-giscus_comments: true
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+Advances in deep reinforcement learning algorithms in recent years have led to impressive results. These algorithms have been applied to the field of robotics, computational biology, natural language processing, computer vision, and more. However, there has been a notable void in the applications of deep reinforcement learning in the field of engineering design. This is primarily due to the fact that key components of engineering design, which involve sketching, constructing, and ideating, are tasks that are easy for humans but very difficult for computers. In our final project, we attempt to bring deep reinforcement learning into the field of engineering design by identifying whether a deep reinforcement learning algorithm can learn to reconstruct in a similar manner as engineering designers.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+In our final project, we went through two iterations of a Computer Aided Design (CAD) reconstruction gym environment. One environment does CAD reconstruction through the use of different variants of an intersection of union (IOU) for our reward function to calculate the goodness of a CAD reconstruction. The second environment utilizes generative adversarial networks (GANs) as our reward function to determine the goodness of the results for each CAD reconstruction sequence. In both cases, we trained the environments on a deep reinforcement learning actor-critic algorithm.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+In the first environment, we attempted several variants of the IOU function as our reward system. However, we determined that the action space for the IOU function is too large, and we were unable to generate any sensible results. For our second environment, we narrowed the action space significantly by constraining the construction of rectangles to be only two specific shapes that can only translate either vertically or horizontally by 8 units or less. We also changed our reward system to utilize a GAN and a variant of a GAN that utilizes the Wasserstein distance. The second environment yielded better results when trained on the deep reinforcement learning algorithm, but it was still unable to produce any resemblance of our target construction result.
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+While our project was unable to generate realistic results, we accomplished a great deal by gathering invaluable insights and discoveries as a result of our experiments. For example, when the goal of the agent is to perform 2D CAD reconstruction sequences, an environment that makes use of a discriminator network as a reward function does a significantly better job than the more traditionally used reward function of an IOU. Additionally, different variants of GANs and their own unique forms of a discriminator network can drastically improve the performance of the results. Finally, our work can be used as a preliminary study for larger projects with 3D CAD reconstructions that reconstruct models in real time to generate large scale generative 3D CAD models. Future work that builds on our work can be critical for advancing the field of engineering design.
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+This was pulled straight from the abstract: 
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+Full PDF of the report is linked [HERE!](https://kevinma1515.github.io/assets/pdf/cs285report.pdf)
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
+Reflections: Overall, this class was tough, but it was a very good experience. Coming into Berkeley as a first year PhD student, I knew I wanted to do research in the applications of machine learning on engineering design. Before this course, I had just taken a simple statistical learning and data science course, so I knew I needed to take a deep learning class to get fully up to speed. And, whew, this course got me fully up to speed. It is strange because I felt like the greatest value this class has brought me was not exactly a very deep understanding of how deep reinforcement learning algorithms works (which I doubt even Deep RL experts can claim they fully understand it), but, it was moreso I got very good at debugging deep learning code for hours on end. Each homework could take more than 20 hours of your life, and, at first, it was very intimidating to see this vast array of libraries in front of you. Somehow, I had to figure out how all the libraries worked together, and I had to debug mistakes in my code for hours on end (broadcasting errors still haunt me). However, through this process, I met many very supportive and smart EECS graduate/undergraduate students who worked with me on these homeworks, and it was great being able to interact with so many more experienced computer scientist at this university who taught me different tricks and hacks to debugging/coding. 
 
-{% raw %}
+As for the class final project, I wished it was a bit longer. We only had 2.5 weeks to work on this project, and I felt like I learned a lot of unique aspects of Deep RL during the creation of this project. Prior to this project, for our homeworks, we only wrote code for the fundamental deep RL algorithms (actor-critic, offline RL, model-based RL...), but we never fully knew how the environment interacted with the algorithm because it was not necessary for us to know in order to finish the homework. By focusing my final project on creating an environment that would ideally interact well with a deep reinforcement learning algorithm, I felt like I covered the last bit of knowledge I needed to complete my overall educational experience in this class. I also think these sorts of problems are the most interesting deep reinforcement learning problems now. We have a bazillion algorithms devised by a bazillion machine learning experts, but there has not been much of a push to apply these algorithms into domains that have not been much touched upon by deep RL (i.e. engineering design).
 
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
 
-{% endraw %}
+
