@@ -1,20 +1,80 @@
 ---
 layout: page
-title: modeling migraine triggers
-description: can we use optimal controls to do this?
+title: project 4
+description: another without an image
 img:
-importance: 1
-category: work
+importance: 3
+category: fun
 ---
 
-This was for my CS281A final project. 
-Abstract: Migraine is one of the leading causes of disability worldwide and the first among young adults. Despite the impacts of migraine attacks, we still lack a fundamental understanding of their causes. Triggers of migraines vary from person to person and can be difficult to identify. However, a better understanding of a person's personal triggers may help them to navigate their conditions. Unfortunately, the process of identifying migraine triggers can be ad-hoc and frustratingly uninformative. In this work we (i) introduce simple models of the dynamics of migraines and (ii) begin to explore how triggers can be identified under these models. We also present a preliminary investigation of closed-loop control with the goal of reducing paine from migraines. Although simplified and exploratory, these represent our initial attempts to bring analytical tools developed in system ID, control, and experimental design to the individualized treatment of migraines.
+Every project has a beautiful feature showcase page.
+It's easy to include images in a flexible 3-column grid format.
+Make your photos 1/3, 2/3, or full width.
 
-Oh, and the answer to the description question: maybe? To be quite frank, I think the challenges in controlling migraines is more of a systems problem where the interface between how a patient self-diagnoses themselves is still unclear and likely understudied.
+To give your project a background in the portfolio page, just add the img tag to the front matter like so:
 
-CLICK [HERE!](https://kevinma1515.github.io/assets/pdf/Migraine_Dynamics.pdf) for the PDF of the report!
+    ---
+    layout: page
+    title: project
+    description: a project with a background image
+    img: /assets/img/12.jpg
+    ---
 
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+</div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    This image can also have a caption. It's like magic.
+</div>
 
+You can also put regular text between your rows of images.
+Say you wanted to write a little bit about your project before you posted the rest of the images.
+You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
 
+<div class="row justify-content-sm-center">
+    <div class="col-sm-8 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm-4 mt-3 mt-md-0">
+        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    You can also have artistically styled 2/3 + 1/3 images, like these.
+</div>
 
+The code is simple.
+Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
+To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
+Here's the code for the last row of images above:
 
+{% raw %}
+
+```html
+<div class="row justify-content-sm-center">
+  <div class="col-sm-8 mt-3 mt-md-0">
+    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+  </div>
+  <div class="col-sm-4 mt-3 mt-md-0">
+    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+  </div>
+</div>
+```
+
+{% endraw %}

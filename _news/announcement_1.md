@@ -1,7 +1,8 @@
 ---
 layout: post
-date: 2022-08-22 15:59:00-0400
+date: 2015-10-22 15:59:00-0400
 inline: true
+related_posts: false
 ---
 
-I started my PhD program at UC Berkeley!
+A simple inline announcement.
