@@ -1,0 +1,10 @@
+main:
+
+  - title: Conceptual Design Generation Using Large Language Model
+    authors: <strong>Kevin Ma</strong>, Daniele Grandi, Christopher McComb, Kosa Goucher-Lambert
+    conference_short: MASME IDETC
+    conference: Proceedings of the ASME International Design Engineering Technical Conferences (2023)
+    pdf: https://codesign.berkeley.edu/papers/ma-llmconceptgen-IDETC/
+    image: ./assets/img/concept_design.png
+    notes: Accepted
+
