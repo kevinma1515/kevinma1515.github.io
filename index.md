@@ -10,7 +10,7 @@ I have worked with [Prof. Can Liu](https://sweb.cityu.edu.hk/canliu/index.html) 
 
 I have also had close collaborations with [Daniele Grandi](https://www.danielegrandi.com/) from AutoDesk Research and [Prof. Chris McComb](https://engineering.cmu.edu/directory/bios/mccomb-christopher.html) from Carnegie Mellon University. In our work, we aimed to understand how capable LLMs are in generating diverse design solutions and compared the diversity of the LLM generated solutions with human crowdsourced design solutions. 
 
-Currently, as of Spring 2024, I am a research intern at the (NASA Langley Research Center)[https://www.nasa.gov/langley/] under the supervision of (Dr. Eric Brubaker)[https://www.ericbrubaker.com/]. Currently, under NASA, we are studying the dynamic of human-AI collaboration through various qualitiative research methods, such as ethnographic observations, interviews, and grounded theory. The goal of our work is to contribute new theoretical insights into human-AI collaboration in the context of design. 
+Currently, as of Spring 2024, I am a research intern at the [NASA Langley Research Center](https://www.nasa.gov/langley/) under the supervision of [Dr. Eric Brubaker](https://www.ericbrubaker.com/). Currently, under NASA, we are studying the dynamic of human-AI collaboration through various qualitiative research methods, such as ethnographic observations, interviews, and grounded theory. The goal of our work is to contribute new theoretical insights into human-AI collaboration in the context of design. 
 
 Starting in Summer 2024, I will begin my research internship at HP Inc. under the supervision of [Dr. Jaewoo Chung](https://www.linkedin.com/in/jaewoo-chung). 
 
