@@ -15,7 +15,7 @@ In addition to my research work, I enjoy advising undergraduate or masters stude
 
 ## Research Interests
 
-- **Human-AI Interaction:** conversational agents, AI ethics, multimodal interactions
+- **Human-AI Interaction:** conversational agents, AI safety, multimodal interactions
 - **Design:** interaction models, design frameworks, human factors
 - **Machine Learning:** generative models, probabilistic modeling, optimization
 
