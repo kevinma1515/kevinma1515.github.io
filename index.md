@@ -23,7 +23,7 @@ In addition to my research work, I enjoy advising undergraduate or masters stude
 
 - **[May 2024]** I have begun my research internship at HP Inc.
 - **[Jan. 2024]** I have begun my research internship at NASA Langley Research Center.
-- **[May 2022]** Our paper about conceptual design generation is accepted to IDETC 2023.
+- **[May 2023]** Our paper about conceptual design generation is accepted to IDETC 2023.
 - **[Aug. 2022]** Started my PhD program at UC Berkeley
 
 ## Teaching
