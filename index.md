@@ -37,11 +37,11 @@ MECENG292C/DESINV190 - Human-AI Design Methods (Spring 2027)
 
 <details>
 <summary>Older news</summary>
-- **[September 2024]** I am returning to NASA Langley Research Center to continue my research project.
-- **[August 2024]** Our paper about human-AI collaboration in early-stage design with NASA got accepted to IDETC 2024.
-- **[May 2024]** I have begun my research internship at HP Inc.
-- **[Jan. 2024]** I have begun my research internship at NASA Langley Research Center.
-- **[May 2023]** Our paper about LLM-supported conceptual design generation was accepted to IDETC 2023.
+- **[September 2024]** I am returning to NASA Langley Research Center to continue my research project. <br>
+- **[August 2024]** Our paper about human-AI collaboration in early-stage design with NASA got accepted to IDETC 2024. <br>
+- **[May 2024]** I have begun my research internship at HP Inc. <br>
+- **[Jan. 2024]** I have begun my research internship at NASA Langley Research Center. <br>
+- **[May 2023]** Our paper about LLM-supported conceptual design generation was accepted to IDETC 2023. <br>
 - **[Aug. 2022]** I have started my PhD program at UC Berkeley
 </details>
 
