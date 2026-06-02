@@ -4,9 +4,9 @@ layout: homepage
 
 ## About Me
 
-I am a PhD student in Mechanical Engineering at UC Berkeley, where I work in the [Co-Design Lab](https://codesign.berkeley.edu/) advised by Prof. Kosa Goucher-Lambert. My research sits at the intersection of design research, human-AI interaction, and computational design. I study how generative AI is reshaping early-stage design, including how AI systems generate design concepts, how professional designers adapt AI within real workflows, and how AI collaborators shape team-based collaboration. I am also affiliated with the [Berkeley Institute of Design](https://bid.berkeley.edu/) and am closely associated with the [Jacobs Institute of Design](https://jacobsinstitute.berkeley.edu/), where I have supported design education through teaching and mentorship. 
+I am a PhD candidate in Mechanical Engineering at UC Berkeley, where I am a part of the [Co-Design Lab](https://codesign.berkeley.edu/) advised by Prof. Kosa Goucher-Lambert. I am also affiliated with the [Berkeley Institute of Design](https://bid.berkeley.edu/) and am closely associated with the [Jacobs Institute of Design](https://jacobsinstitute.berkeley.edu/), where I have supported design education through teaching and mentorship. 
 
-During my PhD, I have collaborated with Prof. Can Liu at City University of Hong Kong on generative AI systems for UX storyboarding, with Daniele Grandi at Autodesk Research and Prof. Chris McComb at Carnegie Mellon University on LLM capabilities in design, and with Prof. Eric Brubaker at Virginia Tech on human-AI interaction, computational simulation, and design theory. I have previously worked as a research intern at NASA Langley Research Center, studying human-AI collaboration in early-stage design. Additionally, I worked with Dr. Jaewoo Chung at HP Inc. to study how AI conversational agents can support team collaboration.
+I am a design researcher focused on human-AI collaboration, studying how people and teams use generative AI in creative and technical workflows. My research combines UX research, computational evaluation, and design theory to understand how people use, trust, adapt, and collaborate with AI systems. During my PhD, I have worked with collaborators at City University of Hong Kong, Autodesk Research, Carnegie Mellon, and Virginia Tech on projects spanning GenAI-supported UX storyboarding, LLM evaluation for design, and computational simulation. I also worked as a research intern at NASA Langley Research Center and HP Inc., where I studied GenAI adoption in real-world innovation settings and designed conversational AI agents to support team collaboration.
 
 In the past, I did my BS in Mechanical Engineering at The University of Texas at Austin, and during that time, I conducted research in COVID-19 risk modelling under the supervision of Prof. Michael Lachmann and Prof. Jennifer Johnson-Leung. 
 
@@ -16,16 +16,16 @@ In addition to my research work, I enjoy advising undergraduate or masters stude
 ## Research Interests
 
 - **Human-AI Interaction:** generative AI in design practice, AI as a social actor, collaborative creativity, human-AI collaboration
-- **Design Research:** early-stage design, design cognition, human-centered design, professional design workflows
-- **Computational Design:** LLM-supported concept generation, design space exploration, computational analysis of design outputs
+- **Design Research:** early-stage design, design cognition, human-centered design, professional design and innovation workflows
+- **Computational Design:** LLM-supported concept generation, design space exploration, computational analysis of AI-generated design outputs
 
 ## Teaching
 
-DESINV15 - Design Methodology (Spring 2023)
+I co-created a design class, **Human-AI Design Methods**, which is a project-based course where students use human-centered and AI-augmented design methods to develop products, services, and systems while critically examining the technical, ethical, and social implications of AI in design. My prior experience includes serving as a teaching assistant for courses in design methodology and design frameworks.
 
-DESINV200 - Design Frameworks (Spring 2024, Fall 2024)
-
-MECENG292C/DESINV190 - Human-AI Design Methods (Spring 2027)
+- **MECENG292C / DESINV190 — Human-AI Design Methods** Spring 2026
+- **DESINV200 — Design Frameworks** Spring 2024, Fall 2024
+- **DESINV15 — Design Methodology** Spring 2023
 
 ## News
 - **[May 2026]** I passed my qualifying exam and am now a PhD Candidate! 
